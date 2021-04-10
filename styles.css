@@ -1,0 +1,122 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #50087abe;
+  height: 100%;
+  margin: 0;
+}
+
+span {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  width: 160vh;
+  height: 160vh;
+}
+
+.chat {
+  width: 60%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: #ba85d8;
+  border: #ba85d8;
+  border-radius: 25px;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.input {
+  border: 0;
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 8px;
+  float: left;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  height: 100%;
+  width: 91%;
+  background-color: #f8f8f8;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.response {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 1%;
+  background-color: #f8f8f8;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 25px;
+}
+
+.cat_btn {
+  color: #f8f8f8;
+  float: right;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #9866b6;
+  border-radius: 15px;
+  background: #9866b6;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.cat_container {
+  display: flex;
+  width: 30%;
+  height: 30%;
+  background-color: #ba85d8;
+  border-radius: 25px;
+  bottom: 1200px;
+  left: 920px;
+}
+
+.header {
+  color: #f8f8f8;
+  border-radius: 25px;
+  background-color: #ba85d8;
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  top: 30px;
+  text-align: center;
+}
+
+#user {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+#happybot {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.text-time {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-small;
+}

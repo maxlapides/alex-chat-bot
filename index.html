@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Chat</title>
+    <link rel="stylesheet" href="styles.css" />
+    <div class="header">
+      <h1>Welcome To HappyBot!</h1>
+      <p>Say hello and get started!</p>
+    </div>
+  </head>
+  <body>
+    <div class="container" style="position: relative; left: 60px; top: 25px">
+      <div class="chat">
+        <div class="messages"></div>
+        <input
+          class="input"
+          type="text"
+          placeholder="Message..."
+          autocomplete="off"
+        />
+        <div class="text_time"></div>
+      </div>
+    </div>
+    <style>
+      img {
+        object-fit: contain;
+      }
+    </style>
+    <button
+      class="cat_btn"
+      style="position: relative; right: 60px; bottom: 1320px"
+    >
+      Click here for kitties!
+    </button>
+    <div class="cat_container" style="position: relative; right: 150px"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script defer src="index.js"></script>
+</html>
